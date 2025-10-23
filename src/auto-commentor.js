@@ -245,3 +245,4 @@ class AutoCommentor {
 }
 
 module.exports = AutoCommentor;
+
