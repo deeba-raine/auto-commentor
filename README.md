@@ -1,15 +1,8 @@
 # auto-commentor
 instructions for setting up nodeJS and running project
 
-1. downlaod nodeJS from https://nodejs.org/en/download
-2. select v22.21.0 (LTS)
-3. go to VScode Terminal and make sure you are in the auto-commentator project File Path
-4. first install the npm package - command --> npm install
-5. initilize npm in local folder --command --> npm init -y
-6. isntall the required express package --command --> npm install express multer cors
-7. go to the windows terminal or cmd and change the path from home directory to auto-commentator Folder
-8. write command --> npm start
-9. you should see a message "Auto Commentor running on http://localhost:3000 
-Directories created successfully" --> node server in local machine activated
-10. now go to the browser url and type "http://localhost:3000/"
-    
+1. Install Docker Desktop or Docker CLI + the Docker Compose Plugin
+2. Clone this repository: git clone https://github.com/<your-username>/auto-commentor.git
+3. Once inside the auto-commentor/src directory, run docker-compose up --build
+ This command will build all three necessary program containers, start the services on a shared Docker network, and expose the frontend to be interacted with on your web browser.
+4. Open your web browser and go to http://localhost:3000
