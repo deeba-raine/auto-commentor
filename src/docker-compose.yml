@@ -1,0 +1,18 @@
+services:
+  frontend:
+    build: ./frontend
+    ports:
+      - "3000:3000"
+    depends_on:
+      - commentor
+      - filemgr
+
+  commentor:
+    build: ./commentor
+    expose:
+      - "5000"
+
+  filemgr:
+    build: ./filemgr
+    expose:
+      - "5001"

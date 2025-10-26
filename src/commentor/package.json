@@ -1,0 +1,11 @@
+{
+  "name": "commentor",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "main": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
